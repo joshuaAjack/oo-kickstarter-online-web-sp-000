@@ -6,8 +6,8 @@ class Backer
     @backed_projects = []
   end
   
-  def back_project(backer)
-    @backer << @backed_projects
+  def back_project(title)
+    @title = @backed_projects
   end
   
 end 
